@@ -9,7 +9,8 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
 
         <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
             android:layout_width="wrap_content"
@@ -17,7 +18,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginBottom="8dp"
 
-            />
+            >
 
         <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
             android:id="@+id/verticalSeekBar"
@@ -30,6 +31,6 @@
 
 
             />
-
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
     </RelativeLayout>
 </fragment>
